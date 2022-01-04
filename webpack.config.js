@@ -14,5 +14,10 @@ module.exports = {
 			jQuery: "jquery",
 		}),
 	],
+
 	mode: "development",
+
+	devServer: {
+		static: "./dist",
+	},
 };
